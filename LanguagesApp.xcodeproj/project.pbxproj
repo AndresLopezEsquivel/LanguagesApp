@@ -13,6 +13,7 @@
 		E7B8FAC024BD4C7A009F0E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B8FABE24BD4C7A009F0E81 /* Main.storyboard */; };
 		E7B8FAC224BD4C81009F0E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B8FAC124BD4C81009F0E81 /* Assets.xcassets */; };
 		E7B8FAC524BD4C81009F0E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B8FAC324BD4C81009F0E81 /* LaunchScreen.storyboard */; };
+		E7B8FACD24BF8380009F0E81 /* Comfortaa in Resources */ = {isa = PBXBuildFile; fileRef = E7B8FACC24BF8380009F0E81 /* Comfortaa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E7B8FAC124BD4C81009F0E81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B8FAC424BD4C81009F0E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7B8FAC624BD4C81009F0E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B8FACC24BF8380009F0E81 /* Comfortaa */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Comfortaa; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E7B8FAB724BD4C7A009F0E81 /* LanguagesApp */ = {
 			isa = PBXGroup;
 			children = (
+				E7B8FACC24BF8380009F0E81 /* Comfortaa */,
 				E7B8FAB824BD4C7A009F0E81 /* AppDelegate.swift */,
 				E7B8FABA24BD4C7A009F0E81 /* SceneDelegate.swift */,
 				E7B8FABC24BD4C7A009F0E81 /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B8FAC524BD4C81009F0E81 /* LaunchScreen.storyboard in Resources */,
+				E7B8FACD24BF8380009F0E81 /* Comfortaa in Resources */,
 				E7B8FAC224BD4C81009F0E81 /* Assets.xcassets in Resources */,
 				E7B8FAC024BD4C7A009F0E81 /* Main.storyboard in Resources */,
 			);
