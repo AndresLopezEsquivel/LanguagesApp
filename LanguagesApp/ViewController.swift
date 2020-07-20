@@ -14,6 +14,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var userName: UITextField!
     @IBOutlet weak var userPassword: UITextField!
     
+    override func viewWillAppear(_ animated: Bool)
+    {
+        navigationController?.isNavigationBarHidden = true
+    }
+    
+    override func viewWillDisappear(_ animated: Bool)
+    {
+        navigationController?.isNavigationBarHidden = false
+    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
