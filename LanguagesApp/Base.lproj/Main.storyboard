@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X1b-Jw-sVs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X1b-Jw-sVs">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -56,6 +56,9 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="20"/>
                                         <state key="normal" title="Log in"/>
+                                        <connections>
+                                            <segue destination="dFg-o7-mre" kind="show" id="E1r-KM-uTD"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -207,6 +210,91 @@
             </objects>
             <point key="canvasLocation" x="2060.8695652173915" y="113.83928571428571"/>
         </scene>
+        <!--Glosarry-->
+        <scene sceneID="0Sm-Ql-wsv">
+            <objects>
+                <viewController id="QdP-ho-udr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J29-wM-Xz0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="KCI-Tj-j3x"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Glosarry" image="book.fill" catalog="system" id="ssm-6Z-2eV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fgl-RI-3BT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3809" y="-27"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="WgM-cx-Olj">
+            <objects>
+                <viewController id="4Pz-ff-v2e" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Gk-vV-Qr3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="2ki-yc-o23"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chat" image="message.fill" catalog="system" id="s9X-nR-aAe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="87o-RL-ShB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3809" y="681"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="R1I-hW-isL">
+            <objects>
+                <viewController id="q3b-N4-lrA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nM3-5E-H2w">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="vGS-sP-Hly"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="briefcase.fill" catalog="system" id="wQc-w8-Rxs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qgH-12-awf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3809" y="1427"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="dA8-Ok-aGA">
+            <objects>
+                <viewController id="2xK-za-Mwm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WH6-TU-ZQr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="L1Z-rx-W1E"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="aIF-za-TzZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EbW-Wd-1wZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3809" y="-709"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="cRW-kQ-o40">
+            <objects>
+                <tabBarController id="dFg-o7-mre" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="r5A-hM-ncA"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kyC-cx-dZn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2xK-za-Mwm" kind="relationship" relationship="viewControllers" id="XNr-m1-Km1"/>
+                        <segue destination="QdP-ho-udr" kind="relationship" relationship="viewControllers" id="Mxm-JE-Ilg"/>
+                        <segue destination="4Pz-ff-v2e" kind="relationship" relationship="viewControllers" id="3nk-4J-O36"/>
+                        <segue destination="q3b-N4-lrA" kind="relationship" relationship="viewControllers" id="WyC-Me-Dk7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ofj-q3-sjZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2881" y="114"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="6HA-We-yna">
             <objects>
@@ -226,4 +314,10 @@
             <point key="canvasLocation" x="137.68115942028987" y="113.83928571428571"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="book.fill" catalog="system" width="128" height="100"/>
+        <image name="briefcase.fill" catalog="system" width="128" height="102"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="message.fill" catalog="system" width="128" height="113"/>
+    </resources>
 </document>
